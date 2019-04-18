@@ -8,9 +8,9 @@ if N % 2 != 0:
 # If  is even and in the inclusive range of 6 to 20, print Weird
 # If  is even and greater than 20, print Not Weird
 else:
-    if 2<=N and N<=5:
+    if N >= 2 and N <= 5:
         print ("Not Weird")
-    elif 6<=N and N<=20:
+    elif N >= 6 and N <= 20:
         print ("Weird")
-    elif N>20:
+    elif N > 20:
         print ("Not Weird")
